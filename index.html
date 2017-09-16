@@ -4,11 +4,27 @@
 		<title>Roy的程式小空間</title>
 		<style>
 		h1 {
-			font-size: 100px;
+			font-size: 70px;
+		}
+		.section-1 p {
+			color: #aaa;
+		}
+		.section-1 p:hover {
+			coloer: blue;
 		}
 		</style>
 	</head>
 	<body>
 		<h1>Welcome to this place</h1>
+		<div class = "section-1">
+			<p>this is a paragraph</p>
+			<p>paragraph 2.</p>
+		</div>
+		<p>this is out of section</p>
+		<marquee>freestyle</marquee>
+		<script>
+			$('#fade').hover(function(){
+				$(this).fadeOut('slow').fadeIn('slow');});
+		</script>
 	</body>
  </html>
